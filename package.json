@@ -4,7 +4,8 @@
   "description": "Updates the document title with the initial chat title in ChatGPT upon opening the page.",
   "main": "dist/content.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "package": "rm -f pacakge.zip && yarn build && zip -r package.zip . -x '.git/**' './node_modules/**' 'yarn*' '*.ts' '.idea/**' 'tsconfig.json' 'package.json' '.gitignore'"
   },
   "keywords": [
     "chrome-extension",
