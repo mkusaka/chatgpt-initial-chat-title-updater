@@ -3,10 +3,6 @@
   "name": "ChatGPT Initial Chat Title Updater",
   "version": "1.2",
   "description": "Updates the document title with the initial chat title in ChatGPT upon opening the page.",
-  "permissions": [
-    "tabs",
-    "activeTab"
-  ],
   "content_scripts": [
     {
       "matches": [
