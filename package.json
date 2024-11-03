@@ -1,6 +1,6 @@
 {
   "name": "chatgpt-initial-chat-title-updater",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Updates the document title with the initial chat title in ChatGPT upon opening the page.",
   "main": "dist/content.js",
   "scripts": {
